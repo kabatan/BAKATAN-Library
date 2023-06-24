@@ -1,14 +1,16 @@
-#ifndef BAKATAN_DSU_HPP
-#define BAKATAN_DSU_HPP 1
+#ifndef ATCODER_DSU_HPP
+#define ATCODER_DSU_HPP 1
 
 #include <algorithm>
 #include <cassert>
 #include <vector>
 
-namespace BAKATAN {
+namespace atcoder {
 
-// https://github.com/atcoder/ac-library/blob/master/atcoder/dsu.hpp
-
+// Implement (union by size) + (path compression)
+// Reference:
+// Zvi Galil and Giuseppe F. Italiano,
+// Data structures and algorithms for disjoint set union problems
 struct dsu {
   public:
     dsu() : _n(0) {}
@@ -69,6 +71,6 @@ struct dsu {
     std::vector<int> parent_or_size;
 };
 
-}  // namespace BAKATAN
+}  // namespace atcoder
 
-#endif  // BAKATAN_DSU_HPP
+#endif  // ATCODER_DSU_HPP
