@@ -7,7 +7,7 @@
 #include <intrin.h>
 #endif
 
-namespace atcoder {
+namespace BAKATAN {
 
 namespace internal {
 
@@ -207,6 +207,6 @@ unsigned long long floor_sum_unsigned(unsigned long long n,
 
 }  // namespace internal
 
-}  // namespace atcoder
+}  // namespace BAKATAN
 
 #endif  // ATCODER_INTERNAL_MATH_HPP

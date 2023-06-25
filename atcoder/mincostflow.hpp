@@ -7,10 +7,10 @@
 #include <queue>
 #include <vector>
 
-#include "atcoder/internal_csr"
-#include "atcoder/internal_queue"
+#include "atcoder/internal_csr.hpp"
+#include "atcoder/internal_queue.hpp"
 
-namespace atcoder {
+namespace BAKATAN {
 
 template <class Cap, class Cost> struct mcf_graph {
   public:
@@ -214,6 +214,6 @@ template <class Cap, class Cost> struct mcf_graph {
     }
 };
 
-}  // namespace atcoder
+}  // namespace BAKATAN
 
 #endif  // ATCODER_MINCOSTFLOW_HPP

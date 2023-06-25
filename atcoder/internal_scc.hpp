@@ -5,9 +5,9 @@
 #include <utility>
 #include <vector>
 
-#include "atcoder/internal_csr"
+#include "atcoder/internal_csr.hpp"
 
-namespace atcoder {
+namespace BAKATAN {
 namespace internal {
 
 // Reference:
@@ -84,6 +84,6 @@ struct scc_graph {
 
 }  // namespace internal
 
-}  // namespace atcoder
+}  // namespace BAKATAN
 
 #endif  // ATCODER_INTERNAL_SCC_HPP

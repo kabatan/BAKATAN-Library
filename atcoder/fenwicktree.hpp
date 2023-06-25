@@ -4,9 +4,9 @@
 #include <cassert>
 #include <vector>
 
-#include "atcoder/internal_type_traits"
+#include "atcoder/internal_type_traits.hpp"
 
-namespace atcoder {
+namespace BAKATAN {
 
 // Reference: https://en.wikipedia.org/wiki/Fenwick_tree
 template <class T> struct fenwick_tree {
@@ -44,6 +44,6 @@ template <class T> struct fenwick_tree {
     }
 };
 
-}  // namespace atcoder
+}  // namespace BAKATAN
 
 #endif  // ATCODER_FENWICKTREE_HPP

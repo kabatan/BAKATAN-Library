@@ -4,9 +4,9 @@
 #include <cassert>
 #include <vector>
 
-#include "atcoder/internal_scc"
+#include "atcoder/internal_scc.hpp"
 
-namespace atcoder {
+namespace BAKATAN {
 
 // Reference:
 // B. Aspvall, M. Plass, and R. Tarjan,
@@ -39,6 +39,6 @@ struct two_sat {
     internal::scc_graph scc;
 };
 
-}  // namespace atcoder
+}  // namespace BAKATAN
 
 #endif  // ATCODER_TWOSAT_HPP

@@ -6,9 +6,9 @@
 #include <tuple>
 #include <vector>
 
-#include "atcoder/internal_math"
+#include "atcoder/internal_math.hpp"
 
-namespace atcoder {
+namespace BAKATAN {
 
 long long pow_mod(long long x, long long n, int m) {
     assert(0 <= n && 1 <= m);
@@ -96,6 +96,6 @@ long long floor_sum(long long n, long long m, long long a, long long b) {
     return ans + internal::floor_sum_unsigned(n, m, a, b);
 }
 
-}  // namespace atcoder
+}  // namespace BAKATAN
 
 #endif  // ATCODER_MATH_HPP

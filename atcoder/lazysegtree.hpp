@@ -6,9 +6,9 @@
 #include <functional>
 #include <vector>
 
-#include "atcoder/internal_bit"
+#include "atcoder/internal_bit.hpp"
 
-namespace atcoder {
+namespace BAKATAN {
 
 #if __cplusplus >= 201703L
 
@@ -212,6 +212,6 @@ struct lazy_segtree {
     }
 };
 
-}  // namespace atcoder
+}  // namespace BAKATAN
 
 #endif  // ATCODER_LAZYSEGTREE_HPP

@@ -9,10 +9,10 @@
 #include <intrin.h>
 #endif
 
-#include "atcoder/internal_math"
-#include "atcoder/internal_type_traits"
+#include "atcoder/internal_math.hpp"
+#include "atcoder/internal_type_traits.hpp"
 
-namespace atcoder {
+namespace BAKATAN {
 
 namespace internal {
 
@@ -270,6 +270,6 @@ using is_dynamic_modint_t = std::enable_if_t<is_dynamic_modint<T>::value>;
 
 }  // namespace internal
 
-}  // namespace atcoder
+}  // namespace BAKATAN
 
 #endif  // ATCODER_MODINT_HPP

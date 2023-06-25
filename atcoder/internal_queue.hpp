@@ -3,7 +3,7 @@
 
 #include <vector>
 
-namespace atcoder {
+namespace BAKATAN {
 
 namespace internal {
 
@@ -24,6 +24,6 @@ template <class T> struct simple_queue {
 
 }  // namespace internal
 
-}  // namespace atcoder
+}  // namespace BAKATAN
 
 #endif  // ATCODER_INTERNAL_QUEUE_HPP

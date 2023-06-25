@@ -7,10 +7,10 @@
 #include <type_traits>
 #include <vector>
 
-#include "atcoder/internal_bit"
-#include "atcoder/modint"
+#include "atcoder/internal_bit.hpp"
+#include "atcoder/modint.hpp"
 
-namespace atcoder {
+namespace BAKATAN {
 
 namespace internal {
 
@@ -331,6 +331,6 @@ std::vector<long long> convolution_ll(const std::vector<long long>& a,
     return c;
 }
 
-}  // namespace atcoder
+}  // namespace BAKATAN
 
 #endif  // ATCODER_CONVOLUTION_HPP
