@@ -7,7 +7,7 @@
 #include <string>
 #include <vector>
 
-namespace BAKATAN {
+namespace atcoder {
 
 namespace internal {
 
@@ -270,6 +270,6 @@ std::vector<int> z_algorithm(const std::string& s) {
     return z_algorithm(s2);
 }
 
-}  // namespace BAKATAN
+}  // namespace atcoder
 
 #endif  // ATCODER_STRING_HPP

@@ -5,7 +5,7 @@
 #include <utility>
 #include <vector>
 
-namespace BAKATAN {
+namespace atcoder {
 namespace internal {
 
 template <class E> struct csr {
@@ -28,6 +28,6 @@ template <class E> struct csr {
 
 }  // namespace internal
 
-}  // namespace BAKATAN
+}  // namespace atcoder
 
 #endif  // ATCODER_INTERNAL_CSR_HPP

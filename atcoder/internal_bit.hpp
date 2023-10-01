@@ -9,7 +9,7 @@
 #include <bit>
 #endif
 
-namespace BAKATAN {
+namespace atcoder {
 
 namespace internal {
 
@@ -50,6 +50,6 @@ constexpr int countr_zero_constexpr(unsigned int n) {
 
 }  // namespace internal
 
-}  // namespace BAKATAN
+}  // namespace atcoder
 
 #endif  // ATCODER_INTERNAL_BITOP_HPP

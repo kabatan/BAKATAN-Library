@@ -8,6 +8,27 @@
 namespace BAKATAN {
 
 template<typename T>
+struct sparse_fps {
+    struct term {
+        T ord, coe;
+        term () : ord(0), coe(0) {}
+        term (const T& ord_, const T& coe_) : ord(ord_), coe(coe_) {}
+    };
+    sparse_fps (const std::vector<T> &ords, const std::vector<T> &coes) {
+        assert(ords.size() == coes.size());
+        A.assign(ords.size());
+        for (int i = 0; i < A.size(); i++) A[i] = term{ords[i], coes[i]};
+    }
+    inline const term &operator[](int k) const {return A[k];}
+    inline term &operator[](int k) {return A[k];}
+    sparse_fps &operator*(const T) const {
+        
+    }
+    private:
+    std::vector<term> A;
+};
+
+template<typename T>
 struct fps : vector<T> {
     using vector<T>::vector;
     using vector<T>::operator=;

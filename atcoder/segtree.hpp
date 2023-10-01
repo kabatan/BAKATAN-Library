@@ -6,9 +6,9 @@
 #include <functional>
 #include <vector>
 
-#include "atcoder/internal_bit.hpp"
+#include "atcoder/internal_bit"
 
-namespace BAKATAN {
+namespace atcoder {
 
 #if __cplusplus >= 201703L
 
@@ -127,6 +127,6 @@ template <class S, S (*op)(S, S), S (*e)()> struct segtree {
     void update(int k) { d[k] = op(d[2 * k], d[2 * k + 1]); }
 };
 
-}  // namespace BAKATAN
+}  // namespace atcoder
 
 #endif  // ATCODER_SEGTREE_HPP

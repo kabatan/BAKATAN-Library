@@ -7,9 +7,9 @@
 #include <queue>
 #include <vector>
 
-#include "atcoder/internal_queue.hpp"
+#include "atcoder/internal_queue"
 
-namespace BAKATAN {
+namespace atcoder {
 
 template <class Cap> struct mf_graph {
   public:
@@ -146,6 +146,6 @@ template <class Cap> struct mf_graph {
     std::vector<std::vector<_edge>> g;
 };
 
-}  // namespace BAKATAN
+}  // namespace atcoder
 
 #endif  // ATCODER_MAXFLOW_HPP

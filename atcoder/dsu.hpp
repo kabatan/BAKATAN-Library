@@ -5,7 +5,7 @@
 #include <cassert>
 #include <vector>
 
-namespace BAKATAN {
+namespace atcoder {
 
 // Implement (union by size) + (path compression)
 // Reference:
@@ -71,6 +71,6 @@ struct dsu {
     std::vector<int> parent_or_size;
 };
 
-}  // namespace BAKATAN
+}  // namespace atcoder
 
 #endif  // ATCODER_DSU_HPP

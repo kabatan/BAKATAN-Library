@@ -5,9 +5,9 @@
 #include <cassert>
 #include <vector>
 
-#include "atcoder/internal_scc.hpp"
+#include "atcoder/internal_scc"
 
-namespace BAKATAN {
+namespace atcoder {
 
 struct scc_graph {
   public:
@@ -27,6 +27,6 @@ struct scc_graph {
     internal::scc_graph internal;
 };
 
-}  // namespace BAKATAN
+}  // namespace atcoder
 
 #endif  // ATCODER_SCC_HPP
